@@ -53,7 +53,7 @@ A aplicação permite adicionar, listar, editar e excluir itens de uma lista de 
 4. **Abra o navegador em:**
    https://localhost:5173
 
-![imagem do projeto](./assets/tela.png)
+![imagem do projeto](./src/assets/tela.png)
 
 📚 Aprendizados
 
