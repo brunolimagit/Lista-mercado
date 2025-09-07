@@ -5,6 +5,8 @@ import "./index.css";
 import { ItemLista } from "./Components/ItemLista";
 import App from "./App";
 
+
+
 //routes
 
 createRoot(document.getElementById("root")).render(
@@ -12,5 +14,5 @@ createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </StrictMode>
+  </StrictMode>,
 );

@@ -5,6 +5,7 @@ function App() {
   const [listaMercado, setListaMercado] = useState([]);
   const inputAdd = useRef(null)
 
+
   const adicionarItem = () => {
     const novaLista = [...listaMercado];
     const valorInput = inputAdd.current.value;
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <>
+    
       <div className="flex w-[500px] flex-col flex-wrap items-center rounded-lg p-10 backdrop-blur-sm my-[5%] mx-auto">
         <h1 className="text-[3rem] font-bold text-white">Lista de compras</h1>
         <div className="my-4 flex w-full gap-2 bg-transparent">
